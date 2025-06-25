@@ -1,0 +1,46 @@
+/* filepath: playful-love-website/src/styles/styles.css */
+
+body {
+    background-color: #ffcccb; /* Light pink background */
+    color: #ff4d4d; /* Red text */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff4d4d; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.no-button {
+    position: relative;
+}
+
+.no-button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.foto-centralizada {
+    display: block;
+    margin: 30px auto 0 auto;
+    max-width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(255, 77, 77, 0.2);
+}
